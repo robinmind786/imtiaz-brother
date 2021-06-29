@@ -194,7 +194,7 @@ h6 {
 }
 
 #header #logo a h1 {
-    color: #FFFF00;
+    color: #FF0000;
 }
 
 /*--------------------------------------------------------------
@@ -240,7 +240,7 @@ h6 {
 }
 
 #intro .intro-content h2 span {
-    color: #FFFF00;
+    color: #FF0000;
     text-decoration: underline;
 }
 
@@ -270,14 +270,18 @@ h6 {
 }
 
 #intro .intro-content .btn-projects {
-    background: #FFFF00;
-    border: 2px solid #FFFF00;
+    background: #FF0000;
+    border: 2px solid #FF0000;
     color: rgba(0, 0, 0, 1.0);
 }
 
 #intro .intro-content .btn-projects:hover {
+    background: red;
+}
+
+#intro .intro-content .btn-projects:hover {
     background: none;
-    color: #FFFF00;
+    background: yellow;
 }
 
 #intro #intro-carousel {
@@ -393,9 +397,11 @@ h6 {
     outline: none;
 }
 
-.nav-menu li:hover>a,
+.nav-menu li:hover>a {
+    color: yellow;
+}
 .nav-menu .menu-active>a {
-    color: #FFFF00;
+    color: red;
 }
 
 .nav-menu>li {
@@ -561,7 +567,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .language {
     width: 100px;
     text-align: center;
-    background-color: #FFFF00;
+    background-color: #FF0000;
     border: none;
     padding: 0;
     text-transform: uppercase;
@@ -584,8 +590,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .language:focus,
 .language:hover {
-    background-color: #FFFF00;
-    color: #fff;
+    background-color: yellow;
+    color: rgba(0, 0, 0, 1.0);
     outline: none;
 }
 
@@ -1647,6 +1653,6 @@ img{
 
 
 #footer-logo a h3 {
-    color: #FFFF00;
+    color: #FF0000;
     font-weight: bold;
 }
